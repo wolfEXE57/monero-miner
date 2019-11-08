@@ -1,4 +1,2 @@
 # monero-miner
-
-Dockerfile for https://hub.docker.com/r/kannix/monero-miner/
-this docker image uses [XMRig](https://github.com/xmrig/xmrig)
+Edit of [kannix's](https://hub.docker.com/r/kannix/monero-miner/) repo to suit my needs. mines on moneroocean using [XMRig](https://github.com/xmrig/xmrig)
