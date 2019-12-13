@@ -14,4 +14,4 @@ WORKDIR /home/monero
 COPY --from=build --chown=monero /root/xmrig/build/xmrig /home/monero
 
 ENTRYPOINT ["./xmrig"]
-CMD ["--url=gulf.moneroocean.stream:80", "--user=49zB6noyhuVcFJ4CVBna5c4R5tBPp82FeKoQmTYYKwfy1BjU7LNmBskcvS7ukDHvV2URfbY8pA88WKWTEd7AP1y9B44R4Wt", "--pass=Docker", "-k", "--algo=cn/r", ""]
+CMD ["--url=gulf.moneroocean.stream:10001", "--user=49zB6noyhuVcFJ4CVBna5c4R5tBPp82FeKoQmTYYKwfy1BjU7LNmBskcvS7ukDHvV2URfbY8pA88WKWTEd7AP1y9B44R4Wt", "--pass=Docker", "-k", "--algo=cn/r", ""]
